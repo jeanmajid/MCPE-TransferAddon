@@ -6,27 +6,17 @@ MCPE-TransferAddon is a Minecraft Bedrock Edition script pack designed to automa
 
 [Download the latest release here](https://github.com/jeanmajid/MCPE-TransferAddon/releases/tag/release)
 
-## Configuration
-
-To configure the target server, edit the `BP/scripts/config.js` file:
-
-```javascript
-export const config = {
-    targetIp: "",
-    targetport: 19132
-};
-```
-
-- **`targetIp`**: The IP address of the server you want players to be transferred to
-- **`targetport`**: The port number of the target server
-
-Make sure to save your changes after editing the file
-
 ## Usage
 
 1. Add the behavior pack to your Minecraft world
-2. Start the world and ensure the script is enabled
+2. Start the world and ensure the script is enabled and then go through the configuration process
 3. Players will automatically be transferred to the configured server upon spawning
+
+## Configuration
+
+Create a new world, as configuration can only be done once and if you wanna do it again, you have to make a new world.
+
+Join the world and you will get prompted to input ip and port. After you input everything, your world should now function as a transfer world.
 
 ## Requirements
 
