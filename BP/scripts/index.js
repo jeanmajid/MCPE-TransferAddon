@@ -11,7 +11,7 @@ world.afterEvents.playerSpawn.subscribe(async ({ player }) => {
         return;
     }
 
-    transferPlayer(player, ip, port);
+    transferPlayer(player, { hostname: ip, port });
 });
 
 async function PromptIpAndPort(player) {
